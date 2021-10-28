@@ -1,0 +1,9 @@
+version: "3.7"
+services: 
+  react-cars-app: 
+    container_name: react-your-car
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+  
